@@ -30,4 +30,24 @@ document.write(1 + "x" +j+ "=" +(j*i)+"<br>");
    for(let i = 1 ; i <= 20; i++){
        document.write("o quadrado de "+ i +"é"+(i*i)+"<br>");
    }
+let operacao ="";
+function operacao (ope){
+   op = ope; 
+}
+function calcule(){
+   let v1 =ducument.getElementById("v1").value;
+   let v2 =ducument.getElementById("v2").value;
+   let r = 0 ;
+  
+   if(op ==="+"){
+r = Number(v1) +Number(v2);
 
+   }
+}
+if(op =="+"){
+    r =Number(v1 + Number(v2)
+}
+    document.getElementById("resultado").innerHTML= r ;
+
+}
+}
