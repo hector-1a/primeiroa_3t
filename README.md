@@ -1,6 +1,7 @@
-# terceiro trimestre
-# hector n 15
-# conteudo 
- css
- html
- javascript
+# TERCEIRO trimestre
+
+## identificaçao
+Nome: Hector dos satons rosa n°15
+
+## conteudo 
+HTML, CSS e javaScriptt
