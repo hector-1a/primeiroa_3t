@@ -1,23 +1,44 @@
 .calculadora {
-    background: red;
-     color: black;
-   width: 200px;
-padding: 10;
-border-radius: 10px;
-text-align: center;
+    background: rgb(10, 56, 182);
+    color: rgb(223, 16, 16);
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
 }
-.calculadora input{
-  background: cyan;
-color: darkmagenta;
-border-radius: 10px;
-padding: 10px;
+.calculadora input {
+background:rgb(7, 148, 7);
+color: black;
+border-radius: 9px;
+padding: 5px;
 }
 #sptotal {
-background: blue;
-color: crimson;
-border-radius: 10px;
-padding: 10px;
-margin-bottom: 10px;
-
-
+    background: rgb(201, 99, 175);
+    color: black;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 10px;
+    
+}
+.calculadora button{
+margin-top: 10px;
+background: chartreuse;
+color: purple;
+padding: 5px 20px;
+border: none;
+}
+.calculadora button:hover{
+background: royalblue;
+color: saddlebrown;
+cursor: pointer;
+}
+#spListaMeses{
+    text-align: start;
+border-style: dotted;
+border-color: salmon;
+border-width: 1px;
+color: springgreen;
+background: thistle;
+font-size: 10px;
+margin-top: 10px;
 }
