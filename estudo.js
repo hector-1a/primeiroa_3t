@@ -1,5 +1,5 @@
 let tabuada = 1;
-let nome = "HECTOR";
+let nome = "hector";
 
 function escreva() {
     document.write("tabuada do " + tabuada + "<br>")
@@ -60,15 +60,16 @@ if (!Number(t)) {
     return
 }
 let r = c;
-let texto ="";
+let texto = "";
 for (let m = 1; m <= t; m++) {
     r = c * (1 + (j / 100));
     c = r;
-    texto+= m + ": " +moeda(r)+"<br>"
+    texto +=  m + " : " + moeda(r) + "<br>"
    // document.write("Mes " + m + " - valor: " + moeda(r) + "<br>");
+
 }
-document.getElementById("listameses").innerHTML =texto
-document.getElementById("total").innerHTML = moeda(r)
+document.getElementById("listameses").innerHTML = texto;
+document.getElementById("total").innerHTML = moeda(r);
 //document.write("resultado: " + moeda(r));
 }
 
@@ -96,5 +97,29 @@ function calcule() {
 
 
     document.getElementById("resultado").innerHTML = r;
+
+}
+function calculaESG(){
+  //ax2 + bx + c = 0;
+  //-x2 + 5x - 6 = 0; 
+  let a = 3;
+  let b =  -2;
+  let c =-8;
+  delta = (b*b) - (4*a*c);
+ if (delta < 0){
+     //escrever que nao tem solução.  
+raiz = "não tem raiz real";
+
+ }else{
+     raiz = getElementById("raiz").value = raiz
+  x1 =((-b)+raiz)/(delta);
+  x2 =((-b)-raiz)/(2*a);
+  
+
+ }
+
+  document.getElementById("raiz").value = delta;
+
+
 
 }
